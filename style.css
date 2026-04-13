@@ -22,8 +22,8 @@ body {
     pointer-events: none;
 }
 
-/* NAVIGATION */
-.nav {
+/* NAVIGATION — matches your <nav> tag */
+nav {
     width: 100%;
     background: rgba(0,0,0,0.7);
     padding: 15px;
@@ -33,7 +33,7 @@ body {
     z-index: 500;
 }
 
-.nav a {
+nav a {
     color: #b05cff;
     text-decoration: none;
     margin: 0 15px;
@@ -41,7 +41,7 @@ body {
     font-weight: bold;
 }
 
-.nav a:hover {
+nav a:hover {
     color: #e0b3ff;
 }
 
@@ -53,25 +53,3 @@ body {
     background-color: #111;
 }
 
-.hero h1 {
-    font-size: 48px;
-    margin: 0;
-    color: #b05cff;
-}
-
-.hero p {
-    font-size: 20px;
-    opacity: 0.8;
-}
-
-/* CONTENT */
-.content {
-    padding: 40px 20px;
-    max-width: 900px;
-    margin: auto;
-}
-
-.content h2 {
-    color: #b05cff;
-    margin-top: 40px;
-}
