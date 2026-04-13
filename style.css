@@ -7,22 +7,7 @@ body {
     font-family: Arial, sans-serif;
 }
 
-/* FIXED LOGO (UG SQUAD STYLE) */
-.site-logo {
-    position: fixed;
-    top: 20px;
-    left: 20px;
-    z-index: 9999;
-}
-
-.site-logo img {
-    height: 90px;
-    width: auto;
-    opacity: 0.95;
-    pointer-events: none;
-}
-
-/* NAVIGATION — matches your <nav> tag */
+/* NAVIGATION */
 nav {
     width: 100%;
     background: rgba(0,0,0,0.7);
@@ -45,9 +30,9 @@ nav a:hover {
     color: #e0b3ff;
 }
 
-/* HERO */
+/* HERO SECTION */
 .hero {
-    padding: 120px 20px 60px;
+    padding: 60px 20px 60px;
     text-align: center;
     background-color: #111;
 }
@@ -63,7 +48,16 @@ nav a:hover {
     opacity: 0.8;
 }
 
-/* MAIN CONTENT — matches <div class="container"> */
+/* CENTERED HERO LOGO (LIKE UG EMBLEM) */
+.hero-logo {
+    width: 260px;
+    max-width: 80%;
+    display: block;
+    margin: 0 auto 20px auto;
+    filter: drop-shadow(0 0 12px #a020f0);
+}
+
+/* MAIN CONTENT */
 .container {
     padding: 40px 20px;
     max-width: 900px;
