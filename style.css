@@ -1,109 +1,63 @@
-/* ================================
-   GLOBAL RESET + BASE
-================================ */
-* {
+body {
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
+    background: #0d0d0d;
+    color: white;
+    font-family: Arial, sans-serif;
+    font-size: 20px;
+    line-height: 1.6;
 }
 
-body {
-    background: #050005; /* deep tactical black-purple */
-    font-family: 'Orbitron', sans-serif;
-    color: #e6e6e6;
+.logo-header {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.logo {
+    width: 220px;
+}
+
+.navbar ul {
+    list-style: none;
+    padding: 0;
+    margin: 20px 0;
     text-align: center;
 }
 
-/* ================================
-   LOGO (Matches Home Page)
-================================ */
-.site-logo {
-    margin-top: 40px;
-}
-
-.site-logo img {
-    width: 260px;
-    height: auto;
-    filter: drop-shadow(0 0 25px #b300ff);
-}
-
-/* ================================
-   NAVIGATION BAR
-================================ */
-nav {
-    margin-top: 25px;
-}
-
-nav a {
-    color: #b300ff;
-    text-decoration: none;
+.navbar ul li {
+    display: inline-block;
     margin: 0 20px;
-    font-size: 1.4rem;
-    font-weight: 600;
-    text-shadow: 0 0 10px #b300ff;
-    transition: 0.2s ease-in-out;
 }
 
-nav a:hover {
-    color: #ffffff;
-    text-shadow: 0 0 15px #ff00ff;
+.navbar ul li a {
+    color: #a020f0;
+    font-size: 24px;
+    text-decoration: none;
+    font-weight: bold;
 }
 
-/* ================================
-   HERO SECTION
-================================ */
 .hero {
-    margin-top: 40px;
+    text-align: center;
+    margin: 40px 0;
 }
 
 .hero h1 {
-    font-size: 3.2rem;
-    color: #b300ff;
-    text-shadow: 0 0 25px #b300ff;
-    letter-spacing: 3px;
+    font-size: 42px;
+    color: #a020f0;
 }
 
-/* ================================
-   CONTAINER
-================================ */
-.container {
-    width: 85%;
+.content {
+    width: 90%;
     max-width: 900px;
-    margin: 50px auto;
-    padding-bottom: 60px;
+    margin: auto;
 }
 
-/* ================================
-   RANK TITLES
-================================ */
-h2 {
-    font-size: 2.4rem;
-    color: #b300ff;
-    text-shadow: 0 0 20px #b300ff;
-    margin-bottom: 20px;
-    margin-top: 60px;
-    letter-spacing: 2px;
+h2, h3 {
+    color: #a020f0;
+    font-size: 32px;
 }
 
-/* ================================
-   PURPLE NAME STYLE (BIGGER)
-================================ */
-.purple-name {
-    color: #b300ff;
-    font-size: 1.8rem;        /* bigger names */
-    font-weight: 700;
-    margin: 12px 0;
-    text-shadow: 0 0 12px #8000ff;
-    letter-spacing: 1px;
-}
-
-/* ================================
-   OPTIONAL: GLOW DIVIDERS
-================================ */
-.rank-divider {
-    width: 60%;
-    height: 2px;
-    background: linear-gradient(90deg, transparent, #b300ff, transparent);
-    margin: 40px auto;
-    box-shadow: 0 0 15px #b300ff;
+ul li {
+    margin: 10px 0;
+    font-size: 22px;
 }
